@@ -84,6 +84,12 @@ html, button, input, select, textarea,
 
 a{
 	transition:all 0.3s linear 0s;
+	text-decoration:underline;
+	color:#504e5c;
+}
+
+a:hover{
+	text-decoration:none;
 }
 
 ul{
@@ -100,7 +106,7 @@ div.header{
 
 .hello-message{
 	background:#504E5C;
-	padding:130px 0;
+	padding:90px 0;
 	color:#F1ECED;
 }
 
